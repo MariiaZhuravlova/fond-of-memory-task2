@@ -26,18 +26,31 @@ display: flex;
 flex-wrap: wrap;
 align-items: center;
 
-margin-right: -98px;
-margin-left: -98px;
-margin-bottom: -53px;
 }
-.finance-item{
+/* .finance-item{
     display: flex;
     flex-basis: calc((100% / 2) - 196px);
     
     margin-right: 98px;
     margin-left: 98px;
     margin-bottom: 53px;
+} */
+
+.finance-list > .finance-item
+{ display: flex;
+    flex-basis: calc((100% / 2) - 98px) ;
+    margin-left: 98px;
+    margin-top:53px;
+} 
+.finance-item:nth-child(2n+1)
+{
+    margin-left: 0;
 }
+.finance-item:nth-child(-n+2)
+{
+    margin-top: 0;
+}
+
 
 .finance-text{
     font-family: 'Montserrat';
