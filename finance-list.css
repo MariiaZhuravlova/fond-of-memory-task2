@@ -27,14 +27,6 @@ flex-wrap: wrap;
 align-items: center;
 
 }
-/* .finance-item{
-    display: flex;
-    flex-basis: calc((100% / 2) - 196px);
-    
-    margin-right: 98px;
-    margin-left: 98px;
-    margin-bottom: 53px;
-} */
 
 .finance-list > .finance-item
 { display: flex;
