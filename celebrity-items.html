@@ -5,24 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Celebrity items</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./base.css">
     <link rel="stylesheet" href="./celebrity-items.css">
 </head>
 <body>
-   <ul>
-       <li>
+   <ul class="celebrity-list list">
+       <li class="celebrity-item">
         <div class="celebrity-list__thumb">
+            <div class="circle-star">
+                <svg width="21" height="21">
+                    <use class="icon-star" href="./images/sprite.svg#icon-star"></use>
+                </svg>  
+            </div>
+            
         <img  
-        srcset="./images/kunis-kutcher-1.jpg 1x, 
-        ./images/kunis-kutcher-2.jpg 2x"
-        src="./images/kunis-kutcher-1.jpg" 
+        srcset="./images/kunis-kutcher-1.png 1x, 
+        ./images/kunis-kutcher-2.png 2x"
+        src="./images/kunis-kutcher-1.png" 
         alt="Фонд Міли Куніс та Ештона Катчера">
         <div class="celebrity-list__info">
-        <p class="fond-value">$36 <span class="fond-money">млн</span></p>
+        <p class="fond-value">$36 млн</p>
         <h3 class="fond-title">Фонд Міли Куніс та Ештона Катчера</h3>
         </div>
        </li>
-
+       <li class="celebrity-item">
+        <div class="celebrity-list__thumb">
+            <div class="circle-star">
+                <svg width="21" height="21">
+                    <use class="icon-star" href="./images/sprite.svg#icon-star"></use>
+                </svg>  
+            </div>
+        <img  
+        srcset="./images/hirosi-mikitani-1.png 1x, 
+        ./images/hirosi-mikitani-2.png 2x"
+        src="./images/hirosi-mikitani-1.png" 
+        alt="Хіросі Мікітані">
+        <div class="celebrity-list__info">
+        <p class="fond-value">$9 млн</p>
+        <h3 class="fond-title">Хіросі Мікітані -<br/>
+            1 млрд єн на підтримку України</h3>
+        </div>
+       </li>
+       <li class="celebrity-item">
+        <div class="celebrity-list__thumb">
+            <div class="circle-star">
+                <svg width="21" height="21">
+                    <use class="icon-star" href="./images/sprite.svg#icon-star"></use>
+                </svg>  
+            </div>
+        <img  
+        srcset="./images/hirosi-mikitani-1.png 1x, 
+        ./images/hirosi-mikitani-2.png 2x"
+        src="./images/hirosi-mikitani-1.png" 
+        alt="Хіросі Мікітані">
+        <div class="celebrity-list__info">
+        <p class="fond-value">$14 млн</p>
+        <h3 class="fond-title">Unite with Ukraine<br/>
+            (Фонд Світового Конгресу українців)</h3>
+        </div>
+       </li>
    </ul> 
 </body>
 </html>

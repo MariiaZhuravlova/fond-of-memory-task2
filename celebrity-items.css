@@ -1,0 +1,47 @@
+.fond-value{
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 20px;
+line-height: 18px;
+
+text-transform: uppercase;
+text-align: center;
+color: #FFD700;
+margin-bottom: 12px;
+
+}
+.fond-title{
+font-family: 'Montserrat';
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+color: #FFFFFF;
+}
+.celebrity-list__info{
+    margin-top: 28px;
+
+}
+.celebrity-list__thumb{
+    position: relative;
+    width: 151px;
+}
+.celebrity-list{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-star{
+fill: #fff;
+}
+.circle-star{
+    position: absolute;
+    right: 10px;
+    background-color: #FFD700;
+    border-radius: 50%;
+    height: 33px;
+    width: 33px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
