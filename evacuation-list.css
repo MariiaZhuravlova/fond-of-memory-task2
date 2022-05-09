@@ -1,0 +1,60 @@
+
+.icon-man-gray{
+    fill: #C4C4C4;
+    height: 100%;
+}
+
+.icon-man-yellow{
+    fill: #FFD700;
+    height: 100%;
+}
+.icon-man-white{
+    fill: #fff;
+}
+.evacuation-item{
+    display: flex;
+    align-items: center;
+    
+    flex-basis: calc(33.33333% - 31px);
+
+    position: relative;
+}
+
+.evacuation-item_title{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #FFFFFF; 
+}
+.evacuation-item_text{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    
+    color: #FFD700;
+
+    margin-bottom: 9px;
+}
+.block-info{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 21px;
+    }
+.evacuation-list{
+    display: flex;
+    align-items: center;
+}   
+.block-info::before{
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 58px;
+  border-radius: 2px;
+  background-color: #fff;
+  display: block;
+  left: 30px; 
+  top: 2px;
+}

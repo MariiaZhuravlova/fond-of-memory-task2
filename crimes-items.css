@@ -1,0 +1,48 @@
+.icon-man-small{
+    fill: #FFD700;
+}
+.crimes-text{
+font-family: 'Montserrat';
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+
+color: #FFFFFF;
+width: 115px;
+margin-bottom: 4px;
+}
+.crimes-value{
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+
+color: #FFD700;
+}
+.crimes-container{
+position: relative;
+left: 350px;
+bottom: -100px;
+}
+.crimes-box::after{
+  content: '';
+  position: absolute;
+  width: 143px;
+  height: 1px;
+  border: 1px;
+  background-color: #D7D0D0;
+  display: block;
+  left: -30px; 
+  bottom: -6px;
+}
+.crimes-box::before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 106px;
+    border: 1px;
+    background-color: #D7D0D0;
+    display: block;
+    left: -15px; 
+    bottom: 4px;
+  }
