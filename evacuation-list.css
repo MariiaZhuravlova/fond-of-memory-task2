@@ -15,8 +15,6 @@
     display: flex;
     align-items: center;
     
-    flex-basis: calc(33.33333% - 31px);
-
     position: relative;
 }
 
@@ -46,6 +44,7 @@
 .evacuation-list{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }   
 .block-info::before{
   content: '';

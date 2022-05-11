@@ -77,10 +77,11 @@ border-radius: 100px;
     flex-wrap: wrap;
        
 }
+
 .gallery-list > .gallery-item
 {
-    flex-basis: calc((100% / 4) - 78px) ;
-    margin-left: 78px;
+    flex-basis: calc((100% / 4) - 70px) ;
+    margin-left: 70px;
     margin-top:50px;
 } 
 .gallery-item:nth-child(4n+1)

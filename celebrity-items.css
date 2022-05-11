@@ -18,14 +18,7 @@ line-height: 18px;
 text-align: center;
 color: #FFFFFF;
 }
-.celebrity-list__info{
-    margin-top: 28px;
 
-}
-.celebrity-list__thumb{
-    position: relative;
-    width: 151px;
-}
 .celebrity-list{
     display: flex;
     justify-content: space-between;
@@ -44,4 +37,11 @@ fill: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.celebrity-item{
+    position: relative;
+    width: 151px;
+}
+.image-set{
+margin-bottom: 28px;
 }
