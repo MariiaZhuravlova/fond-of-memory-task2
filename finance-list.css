@@ -31,7 +31,7 @@ justify-content: space-between;
 
 .finance-list > .finance-item
 { display: flex;
-    
+    flex-basis: calc((100% / 2) - 70px) ;
     margin-top:53px;
 } 
 
