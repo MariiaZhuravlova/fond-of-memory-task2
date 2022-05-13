@@ -44,9 +44,7 @@ fill: #fff;
     flex-basis: calc((100% / 4) - 80px);
     
 }
-/* .celebrity-item:not(:last-child){
-    margin-right: 150px;
-} */
+
 .image-set{
 margin-bottom: 28px;
 border-radius: 50%;
