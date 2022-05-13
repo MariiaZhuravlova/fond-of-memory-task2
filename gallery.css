@@ -97,14 +97,14 @@ border-radius: 100px;
         flex-direction: row;
         flex-wrap: wrap; 
         justify-content: space-between;
-        margin-left: -200px;
+        margin-left: -150px;
         
     }
     
     .gallery-list > .gallery-item
     {
-        flex-basis: calc((100% / 4) - 200px) ;
-        margin-left: 200px;
+        flex-basis: calc((100% / 4) - 150px) ;
+        margin-left: 150px;
        
     } 
     
@@ -146,8 +146,7 @@ border-radius: 100px;
        }
 
 .gallery-list{
-    display: flex;
-   
+      
     margin-bottom: -50px;
 
 }
