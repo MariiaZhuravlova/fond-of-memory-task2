@@ -41,7 +41,7 @@ fill: #fff;
 }
 .celebrity-list > .celebrity-item{
     position: relative;
-    flex-basis: calc((100% / 4) - 150px);
+    flex-basis: calc((100% / 4) - 80px);
     
 }
 /* .celebrity-item:not(:last-child){

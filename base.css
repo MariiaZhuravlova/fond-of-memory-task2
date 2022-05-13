@@ -50,8 +50,8 @@ background-color: #2B2D2E;}
     }
     @media screen and (min-width: 1200px) {
       .container{
-        padding-left: 36px;
-        padding-right: 36px;
+        padding-left: 136px;
+        padding-right: 136px;
         width: 1200px;
       }
     }

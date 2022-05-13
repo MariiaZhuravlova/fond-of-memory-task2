@@ -97,14 +97,14 @@ border-radius: 100px;
         flex-direction: row;
         flex-wrap: wrap; 
         justify-content: space-between;
-        margin-left: -150px;
+        margin-left: -120px;
         
     }
     
     .gallery-list > .gallery-item
     {
-        flex-basis: calc((100% / 4) - 150px) ;
-        margin-left: 150px;
+        flex-basis: calc((100% / 4) - 120px) ;
+        margin-left: 120px;
        
     } 
     
