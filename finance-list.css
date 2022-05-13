@@ -26,19 +26,20 @@ display: flex;
 flex-wrap: wrap;
 align-items: center;
 justify-content: space-between;
+margin-bottom: -53px;
 
 }
 
 .finance-list > .finance-item
 { display: flex;
     align-items: center;
-    flex-basis: calc((100% / 2) - 100px) ;
-    margin-top:53px;
+    flex-basis: calc((100% / 2) - 170px) ;
+    
 } 
 
-.finance-item:nth-child(-n+2)
+.finance-item
 {
-    margin-top: 0;
+    margin-bottom: 53px;
 }
 
 
