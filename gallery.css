@@ -76,7 +76,7 @@ border-radius: 100px;
 @media screen and (min-width: 1920px) {
     .gallery-list{
        margin-left: -156px;
-       margin-bottom: -50px;
+       
     }
     .gallery-list > .gallery-item
     {
@@ -92,14 +92,14 @@ border-radius: 100px;
         display: flex;
         flex-wrap: wrap; 
         justify-content: space-between;
-        margin-left: -50px;
-        margin-bottom: -50px;
+        margin-left: -200px;
+        
     }
     
     .gallery-list > .gallery-item
     {
-        flex-basis: calc((100% / 4) - 50px) ;
-        margin-left: 50px;
+        flex-basis: calc((100% / 4) - 200px) ;
+        margin-left: 200px;
        
     } 
     
